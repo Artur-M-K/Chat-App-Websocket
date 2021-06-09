@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Time Chat</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+        integrity="sha384-PmY9l28YgO4JwMKbTvgaS7XNZJ30MK9FAZjjzXtlqyZCqBY6X6bXIkM++IkyinN+" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="chat">
+        <div class="form-inline">
+            <h2>chat...</h2>
+            <hr>
+            <div class="form-group">
+                <input type="text" class="form-control" id="yourName" placeholder="Write your name...">
+            </div>
+            <button class="btn btn-primary" id="join">Join</button>
+        </div>
+        <hr>
+
+        <div id="chatWindow">
+
+        </div>
+
+        <div class="form-group">
+            <textarea id="message" rows="3" class="form-control" placeholder="Message..."></textarea>
+        </div>
+        <button class="btn btn-primary pull-right" id="submit" disabled>Send</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

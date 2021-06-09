@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+
+#chat {
+    margin-top: 3vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-inline {
+    text-align: right;
+}
+
+h2 {
+    margin-top: 30px;
+    text-align: left;
+    font-size: 72px;
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+}
